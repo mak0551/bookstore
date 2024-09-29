@@ -1,0 +1,305 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.landing22{
+  transform: rotate(2deg);
+  transition: all 3s ease-in-out;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {transform: rotate(2deg);}
+  25%  {transform: rotate(3deg);}
+  50%  {transform: rotate(4deg);}
+  100% {transform: rotate(2deg);}
+
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.recent,.expectations, .choose{
+  height: fit-content;
+}
+
+@media screen and (max-width: 1024px) {
+  /* *{
+    border: 2px solid green;
+  } */
+  .navbar {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    flex-direction: column;
+  }
+  .icon {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-size: xx-large;
+    transition: all 7s ease-out;
+  }
+  .nav {
+    margin: 0%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main {
+    width: 100%;
+  }
+  .landingcontainer {
+    width: 100%;
+    margin-top: 0%;
+    height: fit-content;
+    flex-direction: column;
+  }
+  .landing22{
+    padding: 10px;
+    margin: 10px;
+    width: 60%;
+    height: fit-content;
+  }
+  .btncover {
+    width: fit-content;
+  }
+  .button {
+    width: fit-content;
+  }
+  .landingl {
+    margin-top: -70px;
+    background: none;
+    width: 100%;
+    font-size: larger;
+  }
+  .h5{
+    font-size:large;
+  }
+  /* .landing2 { */
+    /* border: 4px solid red; */
+  /* } */
+  .cards {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .imgcontain{
+    padding: 10px;
+    width: 100%;
+  }
+  .landing2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 0%;
+  }
+  .landing2upper {
+    width: 100%;
+  }
+  .landing2nicche {
+    width: 100%;
+  }
+  .designh1 {
+    width: fit-content;
+  }
+  .choose {
+    width: 100%;
+    height: fit-content;
+  }
+  .whypplh1 {
+    width: 100%;
+  }
+  .whyppl p {
+    width: auto;
+    max-width: 600px;
+  }
+  .iconn{
+    background:none;
+  }
+  .choosebtn {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .expectations {
+    height: fit-content;
+  }
+  .expectations .whyppl h1 {
+    width: fit-content;
+  }
+  .expectationsbtn {
+    flex-direction: column;
+    column-gap: 100px;
+    height: fit-content;
+  }
+  .expectbtn {
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(231, 224, 224);
+  }
+  .expectationlow {
+    width: fit-content;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .recent {
+    height: fit-content;
+  }
+  .recentimg {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .footer {
+    background-color: #dbd4d416;
+    height: fit-content;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .footer1 {
+    width: 100%;
+    margin: 0%;
+  }
+  .footer1 p {
+    width: 100%;
+    max-width: 400px;
+  }
+  .footer2 {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .footer22 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+  }
+  .footer222{
+    font-size: larger;
+    width: 100%;
+
+  }
+  .btn22{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 440px) {
+  .h5{
+    font-size: large;
+  }
+}
+@media screen and (min-width: 1025px) {
+.nav{
+  display: flex;
+}
+.icon{
+  display: none;
+}
+}
+@media screen and (min-width: 1300px) {
+  .nav{
+    display: flex;
+  }
+  .icon{
+    display: none;
+  }
+  .navbar {
+    width: 100%;
+    justify-content: center;
+    font-size: x-large;
+  }
+  .landingcontainer{
+    height: fit-content;
+  }
+  .landingl, .h5{
+    font-size: xx-large;
+  }
+  .imgcontain{
+    padding: 0;
+    height: fit-content;
+  }
+  .landing2{
+    width: 100%;
+    height: 100%;
+  }
+  .cards{
+    gap: 80px;
+  }
+  .card{
+    width: 40vh;
+    height: 50vh;
+    font-size: xx-large;
+  }
+  .p{
+    font-size: x-large;
+    line-height: 30px;
+  }
+  .designbtn{
+    width: 100%;
+    font-size: xx-large;
+    padding: 30px;
+  }
+  .whypplh1{
+    font-size: 50px;
+  }
+  .choosebtnh1p>h1{
+    font-size: xx-large;
+  }
+  .choosebtnh1p>p{
+    font-size: larger;
+  }
+  .expectbtn{
+    height: 300px;
+    width: 300px;
+  }
+  .expectbtn>h1{
+    font-size: 50px;
+  }
+  .expectbtn>h6{
+    font-size: 30px;
+  }
+  .expectations{
+    height: fit-content;
+  }
+  .expec{
+    font-size: xx-large;
+  }
+  .expect{
+    font-size: x-large;
+  }
+  .recent{
+    height: fit-content;
+  }
+  .img{
+    height: 350px;
+    width: 30%;
+  }
+  .footer1>img{
+    width: 300px;
+    height: 100px;
+  }
+  .footer1>p{
+    font-size: larger;
+  }
+  .footer22{
+    font-size: x-large;
+  }
+  .btn22{
+    width: 100%;
+  }
+}
